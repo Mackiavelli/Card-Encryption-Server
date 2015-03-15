@@ -4,7 +4,8 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# .jar is removed because of dependency purposes (xstream XML library)
+# the folders which include .jar files that should not be uploaded are already included below
 *.war
 *.ear
 
