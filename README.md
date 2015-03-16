@@ -5,7 +5,6 @@ This is the server-side of a project whose idea is to provide a server-client in
 Once you pull the project, you need to compile it before you open anything from the "view" package in your IDE. Not 
 doing so will cause an error. The project needs to have the Java Panels compiled, before they are added to a Frame.
 Thus, if you open MainWindow without first compiling the panels within it, you will get an error.
-### ATTENTION! ###
 
 The accepted cards are: MasterCard, Visa, AmericanExpress, Discovery. 
 All of them, consist of 16 digits, besides AmEx, which has only 15. They must also be correct card numbers, which is
